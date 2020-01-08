@@ -1,0 +1,52 @@
+package id.ac.poliban.mi.renaldykambayu.listligainggris;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ClubData {
+    static List<Club> getAllClubs() {
+        List<Club> data = new ArrayList<>();
+        {
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/0/0c/Liverpool_FC.svg/180px-Liverpool_FC.svg.png","Liverpool F.C","Liverpool Football Club /ˈlɪvərpuːl/ (dikenal pula sebagai Liverpool atau The Reds) adalah sebuah klub sepak bola asal Inggris yang berbasis di Kota Liverpool. Saat ini Liverpool adalah peserta Liga Utama Inggris. Liverpool juga merupakan juara bertahan Liga Champions UEFA musim 2018-2019\n" +
+                    "\n" +
+                    "Liverpool telah memenangkan 6 trofi Liga Champions UEFA (dulu Piala Champions) dan merupakan klub dengan pemegang gelar juara Liga Champions UEFA terbanyak di Inggris dan ketiga di Eropa setelah Real Madrid dan AC Milan[3]. Selain itu Liverpool juga pemegang 3 gelar juara Liga Eropa UEFA[4] dan 4 gelar Piala Super UEFA[5]."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/c/cc/Chelsea_FC.svg/200px-Chelsea_FC.svg.png","Chelsea F.C","Chelsea Football Club /ˈtʃɛlsiː/ adalah sebuah klub sepak bola Inggris yang bermarkas di Fulham, London. Chelsea didirikan pada tahun 1905 dan kini berkompetisi di Liga Utama Inggris.\n" +
+                    "\n" +
+                    "Kesuksesan pertama Chelsea diraih saat meraih gelar juara liga pada tahun 1955. Beberapa gelar dari berbagai kompetisi juga berhasil diraih pada dekade 1960an, 1970an, 1990an, dan 2000an. Sepanjang sejarah penampilan dalam dunia sepak bola di Inggris dan Eropa, Chelsea telah meraih enam gelar juara Liga Utama Inggris, delapan Piala FA, lima Piala Liga, dua Liga Eropa UEFA, dua Piala Winners UEFA, satu Liga Champions UEFA, dan satu Piala Super UEFA.[3] Dalam dua dekade terakhir merupakan periode terbaik kesuksesan Chelsea dengan meraih lebih dari 30 gelar sejak tahun 1997, termasuk untuk pertama kali meraih gelar ganda, Liga Utama Inggris dan Piala FA pada tahun 2010 serta gelar juara Liga Champions UEFA pada tahun 2012 dan Liga Eropa UEFA pada 2013 dan 2019.[4][5]"));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/200px-Manchester_City_FC_badge.svg.png","Mancester City F.C","Manchester City Football Club (dikenal pula sebagai Man City atau The Citizens) adalah sebuah klub sepak bola profesional dari Inggris yang bermain di Liga Premier Inggris. Klub ini merupakaan klub sekota dengan Manchester United dan bermarkas di Stadion Etihad, Manchester.\n" +
+                    "\n" +
+                    "Pertandingan pertama dimainkan pada bulan November 1880. Pada saat itu masih bernama St Mark's (West Gorton). Pada tahun 1887 berubah nama menjadi Ardwick A.F.C, dan pada tahun 1894 menjadi Manchester City F.C.\n" +
+                    "\n" +
+                    "Manchester City telah memenangi Liga Inggris sebanyak 4 kali, Piala FA 5 kali, Piala Liga Inggris 4 kali, dan Piala Winners Eropa 1 kali. Periode tersukses klub ini terjadi pada era akhir tahun 1960-an dan awal 1970-an. Pada saat itu City di bawah asuhan manager Joe Mercer dengan asistennya Malcolm Allison dan beberapa pemain seperti Colin Bell, Mike Summerbee dan Francis Lee."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/7/7a/Manchester_United_FC_crest.svg/220px-Manchester_United_FC_crest.svg.png","Manchester United F.C","Manchester United Football Club adalah sebuah klub sepak bola profesional Inggris yang berbasis di Old Trafford, Manchester Raya, yang bermain di Liga Inggris. Didirikan sebagai Newton Heath LYR Football Club pada tahun 1878, klub ini berganti nama menjadi Manchester United pada 1902 dan pindah ke Old Trafford pada tahun 1910.\n" +
+                    "\n" +
+                    "Manchester United telah memenangkan banyak trofi di sepak bola Inggris, termasuk rekor 20 gelar Liga, 12 Piala FA,[5] empat Piala Liga dan rekor 21 FA Community Shield. Klub ini juga telah memenangkan tiga Piala Eropa, satu Piala UEFA, satu Piala Winners UEFA, satu Piala Super UEFA, satu Piala Interkontinental dan satu Piala Dunia Antarklub FIFA. Pada 1998-1999, klub memenangkan treble dari Liga Premier, Piala FA dan Liga Champions, prestasi belum pernah terjadi sebelumnya untuk klub Inggris."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/6/6c/Leicester_FC_Logo.svg/200px-Leicester_FC_Logo.svg.png","Leichester F.C","Leicester City F.C. adalah sebuah tim sepak bola Inggris berbasis di Leicester. Leicester Dikenal juga dengan sebutan The Foxes. Klub ini memainkan pertandingan kandangnya di Stadion King Power yang berkapsitas 32.000 penonton.\n" +
+                    "\n" +
+                    "Mereka bermain di Liga Premier, setelah promosi sebagai juara Football League Championship di 2013-14, kembali ke papan atas sepak bola Inggris setelah satu dekade dan akhirnya menjadi juara di musim 2015-16, atau dua musim setelah promosi.\n" +
+                    "\n" +
+                    "Leicester dipastikan keluar sebagai juara untuk kali pertama dalam sejarahnya setelah raihan poinnya tak mampu dikejar Arsenal maupun Tottenham diposisi kedua dan ketiga."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/0/0c/Liverpool_FC.svg/180px-Liverpool_FC.svg.png","Liverpool F.C","Liverpool Football Club /ˈlɪvərpuːl/ (dikenal pula sebagai Liverpool atau The Reds) adalah sebuah klub sepak bola asal Inggris yang berbasis di Kota Liverpool. Saat ini Liverpool adalah peserta Liga Utama Inggris. Liverpool juga merupakan juara bertahan Liga Champions UEFA musim 2018-2019\n" +
+                    "\n" +
+                    "Liverpool telah memenangkan 6 trofi Liga Champions UEFA (dulu Piala Champions) dan merupakan klub dengan pemegang gelar juara Liga Champions UEFA terbanyak di Inggris dan ketiga di Eropa setelah Real Madrid dan AC Milan[3]. Selain itu Liverpool juga pemegang 3 gelar juara Liga Eropa UEFA[4] dan 4 gelar Piala Super UEFA[5].\n" +
+                    "\n" +
+                    "Di kompetisi domestik, Liverpool adalah klub dengan 18 gelar juara Liga Inggris, 7 Piala FA, serta 7 kali juara Piala Liga.\n" +
+                    "\n" +
+                    "Liverpool didirikan pada tahun 1892 dan bergabung dengan Football League pada tahun berikutnya. Klub ini telah bermain di Stadion Anfield sejak pembentukannya yang terletak sekitar 4,8 km dari pusat kota Liverpool.\n" +
+                    "\n" +
+                    "Periode paling sukses dalam sejarah Liverpool adalah pada tahun 1970-an dan 1980-an ketika Bill Shankly dan Bob Paisley memimpin klub dengan sebelas gelar liga dan tujuh piala Eropa."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/7/7c/Everton_FC_logo.svg/200px-Everton_FC_logo.svg.png","Everton F.C","Everton Football Club /ˈɛvərtən/ adalah sebuah klub sepak bola profesional yang bermarkas di Kota Liverpool, Inggris, dan merupakan klub rival dari klub sekota Liverpool. Didirikan pada tahun 1878 dan menjadi salah satu pendiri dari Liga Sepak Bola (Football League) pada tahun 1888 serta Liga Primer pada tahun 1992.\n" +
+                    "\n" +
+                    "Saat ini berkompetisi di Liga Utama Inggris, divisi teratas Liga Inggris. Mereka telah berkompetisi di divisi teratas dengan rekor 108 musim, menjadi klub yang paling lama bermain di divisi teratas kompetisi sepak bola Inggris."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/b/b4/Tottenham_Hotspur.svg/140px-Tottenham_Hotspur.svg.png","Tottenham Hotspur F.C","Tottenham Hotspur Football Club /ˈtɒtənəm/,[1][2] adalah klub sepak bola yang berasal dari Tottenham, sebuah daerah yang berada di wilayah utara London. Mereka juga dikenal sebagai Spurs, The Spurs dan Tottenham, sementara penggemar mereka memberi mereka nama the Lilywhites karena seragam tradisional mereka yang berwarna putih.\n" +
+                    "\n" +
+                    "Didirikan pada tahun 1882, Tottenham memenangkan Piala FA untuk pertama kalinya pada tahun 1901, dan menjadi satu-satunya klub non-Liga yang menjuarai Piala FA, sejak dibentuknya The Football League. Pada musim 1960-61, Tottenham adalah klub pertama pada abad ke-20 yang meraih gelar ganda sebagai juara Liga dan Piala FA. Setelah berhasil mempertahankan Piala FA pada tahun 1962, Tottenham menjadi klub Inggris pertama yang memenangkan kompetisi klub UEFA dengan menjadi juara Piala Winners UEFA pada tahun 1963. Piala FA yang ketiga kalinya pada tahun 1960-an, dimenangkan pada tahun 1967."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/f/fc/Wolverhampton_Wanderers.svg/200px-Wolverhampton_Wanderers.svg.png","Wolves F.C","Wolverhampton Wanderers Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di Wolverhampton, Britania Raya yang bermain di Liga Utama Inggris. Klub ini memainkan pertandingan kandangnya di Stadion Molineux yang berkapasitas 32,050 penonton. Seragam mereka berwarna cokelat-hitam. Mereka dijuluki Wolves."));
+            data.add(new Club("https://upload.wikimedia.org/wikipedia/id/thumb/b/bf/Crystal_Palace_F.C._logo_%282013%29.png/170px-Crystal_Palace_F.C._logo_%282013%29.png","Crystal Palace F.C","Crystal Palace Football Club merupakan sebuah tim sepak bola Inggris yang bermarkas di London Borough of Croydon dan didirikan pada tahun 1905. Klub ini memainkan pertandingan kandangnya di Selhurst Park yang berkapasitas 26.309 penonton. Seragam mereka berwarna merah-biru.\n" +
+                    "\n" +
+                    "Musim 2012-13 klub ini bermain di Liga Championship Inggris. Mulai musim 2013-14, klub akan bermain di Liga Utama Inggris setelah mendapatkan promosi karena menjadi juara dalam pertandingan final play-off Liga Championship Inggris, dengan mengalahkan Watford yang berlangsung di Stadion Wembley.[4]"));
+            data.add(new Club("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQj33WsBaqOyjlb7y67o0scpVIY-b2patyIB_Ets3S4V0u26X36","LORD KAZUMA","Stronger then Demon King"));
+        }
+        return data;
+    }
+}
